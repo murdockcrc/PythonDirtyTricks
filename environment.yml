@@ -1,0 +1,12 @@
+name: luisdel
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy=1.19.1
+  - pillow=7.0
+  - pip
+  - python=3.8.3
+  - pylint=2.5.3
+  - rope=0.17
+  - scipy=1.5.2

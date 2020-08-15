@@ -1,4 +1,4 @@
-# Convert a sequence into an n-dimensional array
+# Create a sequence from a range
 
 import numpy as np
 

@@ -5,10 +5,19 @@ Personal notes from cool but easy-to-forget Python syntax
 This project is designed to be used with conda. For that purpose, there is an `environment.yml` file provided for you
 
 ```
-conda env create --name tricks -f environment.yml python=3.8
+conda env create -f environment.yml
 ```
 
+This will create a conda environment named `tricks`
+
 Running this command will create a conda environment with all needed dependencies, fixed to Python 3.8.x
+
+# Python native
+
+## Collections and arrays
+
+* [Array slicing](python_native/array_slicing.ipynb)
+
 
 # Attribution
 

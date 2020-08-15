@@ -4,17 +4,17 @@ channels:
   - defaults
 dependencies:
   - h5py=2.10 # Stores large files of numeric data in an efficient binary format. Used to saved Keras models to disk
+  - jupyterlab=2.2.4
   - keras=2.4.3
   - matplotlib=3.3.1
   - numpy=1.19.1  
   - pillow=7.0
   - pip
-  - python=3.8.3
+  - python=3.6
   - pylint=2.5.3
   - rope=0.17
   - scipy=1.5.2  
   - pip:
     - graphviz==0.14.1 # To visualize Keras models
-    - tensorflow==2.3.0
     - pydot-ng==2.0.0 # To visualize Keras models
     - opencv-python==4.4.0.40

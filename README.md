@@ -16,7 +16,7 @@ Running this command will create a conda environment with all needed dependencie
 
 ## Collections and arrays
 
-* [Array slicing](python_native/01_collections/arrays.ipynb#Array-slicing)
+* [Sequence to array](python_native/01_collections/sequence_to_array.py)
 
 
 # Attribution

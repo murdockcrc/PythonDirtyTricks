@@ -1,4 +1,4 @@
-name: luisdel
+name: tricks
 channels:
   - conda-forge
   - defaults

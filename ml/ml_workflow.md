@@ -1,3 +1,5 @@
+*Notes from Deep learning with Python. Chollet. 2018*
+
 # Define the problem and assemble the dataset
 
 * What will your input data be? What are you trying to predict?

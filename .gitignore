@@ -133,3 +133,9 @@ dmypy.json
 
 # other files
 *.bin
+
+# data folders
+*data*
+
+# trained models
+*.h5

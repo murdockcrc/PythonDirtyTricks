@@ -133,6 +133,7 @@ dmypy.json
 
 # other files
 *.bin
+*.txt
 
 # data folders
 *data*

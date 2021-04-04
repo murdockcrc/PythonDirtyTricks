@@ -10,7 +10,15 @@ conda env create -f environment.yml
 
 This will create a conda environment named `tricks`
 
-Running this command will create a conda environment with all needed dependencies, fixed to Python 3.8.x
+Running this command will create a conda environment with all needed dependencies, fixed to Python 3.6.x
+
+# Environment files per project
+
+Due to versioning conflicts, the environment files might be split per project. The following table tell you which environment file to use for which project. If the project is not listed in this table, then use the `environment.yml` file.
+
+|Project|Environment file|
+|--|--|
+|azure_ml|azureml-environment.yml|
 
 # Python native
 

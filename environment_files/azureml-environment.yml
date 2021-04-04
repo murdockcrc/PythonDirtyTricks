@@ -1,0 +1,9 @@
+name: azureml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - azureml-core==1.25.0

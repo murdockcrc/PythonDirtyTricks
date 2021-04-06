@@ -9,3 +9,4 @@ dependencies:
   - torchvision
   - pip:
     - azureml-core==1.25.0
+    - azureml-sdk

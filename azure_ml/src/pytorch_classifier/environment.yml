@@ -1,4 +1,4 @@
-name: pytorch-env2
+name: pytorch-env
 channels:
   - defaults
   - pytorch

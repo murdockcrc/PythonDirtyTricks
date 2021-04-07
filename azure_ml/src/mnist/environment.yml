@@ -1,0 +1,13 @@
+name: azureml_mnist
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel=5.5.3
+  - matplotlib=3.4.1
+  - python=3.8
+  - pip  
+  - pip:
+    - azureml-core==1.26.0
+    - azureml-opendatasets==1.26.0
+    - azureml-sdk==1.26.0

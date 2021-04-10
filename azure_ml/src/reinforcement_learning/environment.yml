@@ -1,0 +1,11 @@
+name: azureml_rl
+channels:
+  - defaults
+dependencies:
+  - python=3.6.2  
+  - pip
+  - pip:
+    - azureml-core==1.26.0
+    - azureml-widgets==1.26.0
+    - azureml-tensorboard==1.26.0
+    - azureml-contrib-reinforcementlearning==1.26.0

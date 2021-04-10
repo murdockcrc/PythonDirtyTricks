@@ -7,9 +7,23 @@ import os
 import sys
 
 from azureml.core import Run
-from utils import callbacks
 
 DEFAULT_RAY_ADDRESS = 'localhost:6379'
+
+'''RLlib callbacks module:
+    Common callback methods to be passed to RLlib trainer.
+'''
+
+def on_train_result(info):
+    '''Callback on train result to record metrics returned by trainer.
+    '''
+    run = Run.get_context()
+    run.log(
+        name='episode_reward_mean',
+        value=info["result"]["episode_reward_mean"])
+    run.log(
+        name='episodes_total',
+        value=info["result"]["episodes_total"])
 
 if __name__ == "__main__":
 
@@ -29,7 +43,7 @@ if __name__ == "__main__":
                  "env": args.env,
                  "num_gpus": args.config["num_gpus"],
                  "num_workers": args.config["num_workers"],
-                 "callbacks": {"on_train_result": callbacks.on_train_result},
+                 "callbacks": {"on_train_result": on_train_result},
                  "sample_batch_size": 50,
                  "train_batch_size": 1000,
                  "num_sgd_iter": 2,

@@ -1,0 +1,6 @@
+
+name: azureml_timeseries
+dependencies:
+- pip:
+  - azureml-sdk
+  - pandas<=0.23.4

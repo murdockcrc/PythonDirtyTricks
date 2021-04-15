@@ -1,0 +1,12 @@
+name: azureml_logging
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel=5.5.3
+  - python=3.8
+  - pip  
+  - pip:
+    - azureml-core==1.26.0
+    - azureml-sdk==1.26.0
+    - opencensus-ext-azure>=1.0.1
